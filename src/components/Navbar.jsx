@@ -8,8 +8,12 @@ const Navbar = () => {
           ShopHub
         </Link>
         <div className='navbar-links'>
-          <Link to='/'>Home</Link>
-          <Link to='/checkout'>Cart</Link>
+          <Link to='/' className='navbar-link'>
+            Home
+          </Link>
+          <Link to='/checkout' className='navbar-link'>
+            Cart
+          </Link>
         </div>
         <div className='navbar-auth'>
           <div className='navbar-auth-links'>
@@ -17,7 +21,7 @@ const Navbar = () => {
               Login
             </Link>
             <Link to='/auth' className='btn btn-primary'>
-              Register
+              Signup
             </Link>
           </div>
         </div>
